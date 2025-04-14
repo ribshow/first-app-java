@@ -49,8 +49,13 @@ public class MainActivity extends DebugActivity {
                 tPassword = (TextView) findViewById(R.id.edtPassword);
 
                 // 4. Criação do Usuário e Senha Padrão.
-                final String LOGIN = "Heryson Andrade";  // Constante LOGIN é o nome do usuário.
-                final String PASSWORD = "12345"; // Constante SENHA é a senha do usuário.
+                //final String LOGIN = "Heryson Andrade";  // Constante LOGIN é o nome do usuário.
+                //final String PASSWORD = "12345"; // Constante SENHA é a senha do usuário.
+
+                Intent intentData = getIntent();
+                final String NAME = intentData.getStringExtra("name");
+                final String LOGIN = intentData.getStringExtra("email");
+                final String PASSWORD = intentData.getStringExtra("password");
 
                 // 5. Capturar usuário e senha.
                 String login = tLogin.getText().toString();
