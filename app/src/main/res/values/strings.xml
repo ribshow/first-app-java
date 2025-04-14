@@ -1,11 +1,18 @@
 <resources>
     <string name="app_name">LoginApp</string>
-    <string name="texto_usuario">Usuário:</string>
-    <string name="texto_senha">Senha:</string>
-    <string name="placeholder_usuario">Entre com o seu usuário.</string>
-    <string name="placeholder_senha">Entre com a sua senha.</string>
-    <string name="button_texto_login">Login</string>
+    <string name="text_user">Usuário:</string>
+    <string name="text_password">Senha:</string>
+    <string name="placeholder_user">Entre com o seu usuário.</string>
+    <string name="placeholder_password">Entre com a sua senha.</string>
+    <string name="button_text_login">Login</string>
     <string name="button_register">Cadastrar</string>
     <string name="text_name">Nome</string>
     <string name="edtName">Nome</string>
+    <string name="label_email">Email</string>
+    <string name="input_email">Digite seu email...</string>
+    <string name="input_name">Digite seu nome...</string>
+    <string name="input_name_text">Digite seu nome...</string>
+    <string name="input_email_text">Digite seu email...</string>
+    <string name="label_password">Senha</string>
+    <string name="input_password_text">Digite sua senha...</string>
 </resources>
