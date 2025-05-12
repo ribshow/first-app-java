@@ -1,11 +1,14 @@
 <resources>
     <string name="app_name">LoginApp</string>
-    <string name="text_user">Usuário:</string>
+    <!-- TELA DE LOGIN -->>
+    <string name="text_user">Email:</string>
     <string name="text_password">Senha:</string>
-    <string name="placeholder_user">Entre com o seu usuário.</string>
-    <string name="placeholder_password">Entre com a sua senha.</string>
+    <string name="placeholder_user">Digite seu email...</string>
+    <string name="placeholder_password">Digite sua senha...</string>
     <string name="button_text_login">Login</string>
     <string name="button_register">Cadastrar</string>
+
+    <!-- TELA DE REGISTRO -->
     <string name="text_name">Nome</string>
     <string name="edtName">Nome</string>
     <string name="label_email">Email</string>
@@ -15,4 +18,6 @@
     <string name="input_email_text">Digite seu email...</string>
     <string name="label_password">Senha</string>
     <string name="input_password_text">Digite sua senha...</string>
+    <string name="calculate_square">Calcular Quadrado</string>
+    <string name="calculate_area">Calcular Area</string>
 </resources>

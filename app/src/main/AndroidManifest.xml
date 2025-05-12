@@ -19,7 +19,7 @@
             android:name=".DebugActivity"
             android:exported="false" />
         <activity
-            android:name=".BemVindoActivity"
+            android:name=".WelcomeActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"

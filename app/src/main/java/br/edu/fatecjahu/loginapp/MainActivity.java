@@ -64,7 +64,7 @@ public class MainActivity extends DebugActivity {
                 // 6. Validação de usuário e senha.
                 if (LOGIN.equals(login) && PASSWORD.equals(password)) {
                     // 7. Cria uma intenção (objeto intent) de navegar para a próxima tela.
-                    Intent intent = new Intent(getContext(), BemVindoActivity.class);
+                    Intent intent = new Intent(getContext(), WelcomeActivity.class);
 
                     // 9. Criar um pacote de dados (Bundle)
                     Bundle params = new Bundle();

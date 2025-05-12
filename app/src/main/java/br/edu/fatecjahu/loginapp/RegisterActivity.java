@@ -41,7 +41,7 @@ public class RegisterActivity extends DebugActivity {
                 public void onClick(View v) {
                     tName = (TextView) findViewById(R.id.edtName);
                     tEmail = (TextView) findViewById(R.id.edtEmail);
-                    tPassword = (TextView) findViewById(R.id.edtPassword);
+                    tPassword = (TextView) findViewById(R.id.inputPassword);
 
                     String name = tName.getText().toString();
                     String email = tEmail.getText().toString();
