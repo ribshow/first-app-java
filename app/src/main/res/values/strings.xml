@@ -20,4 +20,31 @@
     <string name="input_password_text">Digite sua senha...</string>
     <string name="calculate_square">Calcular Quadrado</string>
     <string name="calculate_area">Calcular Area</string>
+    <string name="number_one">Número 1:</string>
+    <string name="type_number_one">Digite o número 1...</string>
+    <string name="type_number1">Digite o número 1...</string>
+    <string name="number_two">Número 2:</string>
+    <string name="type_number2">Digite o número 2...</string>
+    <string name="calculate">Calcular</string>
+    <string name="multi_here">Multiplique aqui:</string>
+    <string name="calc_multi">Calculadora Multiplicação</string>
+    <string name="calc_multi_2">Calculadora Multiplicação</string>
+
+    <!-- SquareActivity -->
+    <string name="enter_both_numbers">Por favor, insira ambos os números</string>
+    <string name="invalid_number_format">Formato de número inválido</string>
+    <string name="result_format">Resultado: %.2f</string>
+    <string name="type_side1">Informe o Lado 1...</string>
+    <string name="type_side2">Informe o lado 2...</string>
+    <string name="calc_area">Calcule Áreas aqui:</string>
+
+    <!-- AreaActivity -->
+    <string name="fill_all_fields">Preencha todos os campos</string>
+    <string name="positive_values_required">Valores devem ser positivos</string>
+    <string name="square_area_result">Área do quadrado: %.2f</string>
+    <string name="rectangle_area_result">Área do retângulo: %.2f</string>
+    <string name="side1">Lado 1:</string>
+    <string name="side2">Lado 2:</string>
+    <string name="type_number_2">Digite o número 2...</string>
+
 </resources>

@@ -25,9 +25,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/calculate_square"
+        android:text="@string/calc_multi_2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:ignore="VisualLintButtonSize" />
 
 
     <Button
@@ -38,7 +39,8 @@
         android:layout_marginTop="20dp"
         android:text="@string/calculate_area"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSquare" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSquare"
+        tools:ignore="VisualLintButtonSize" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
